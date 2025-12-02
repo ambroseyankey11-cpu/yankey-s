@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yankey's Education Website</title>
+
+  <!-- ====== SHARED CSS ====== -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f9ff;
+      color: #003049;
+    }
+
+    header {
+      background: #003049;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* NAVBAR */
+    .topnav {
+      overflow: hidden;
+      background-color: #0077b6;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background: #caf0f8;
+      color: #003049;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #0077b6;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+    }
+
+    table, th, td {
+      border: 1px solid #003049;
+      padding: 10px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #003049;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #005f86;
+    }
+
+    img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    .social-icon img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+  </style>
+</head>
+
+<body>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+
+  <header>
+    <h1>Yankey's</h1> Academy</h1>
+    <p>Quality Education at the highest peak</p>
+  </header>
+
+  <section>
+    <h2>Welcome  to Yankay's Acadamy</h2>
+    <img src="sch1.webp" alt="Students Learning" />
+    <p>Empowering students with modern learning tools and resources.</p>
+  </section>
+
+  <footer>© 2025 Yankey's Academy</footer>
+
+  
+  <section>
+    <h2>About Us</h2>
+    <img src="sch2.webp" alt="About Education" />
+    <p>Yankay's provides clear, simple, and effective learning materials to help students excel in their studies.</p>
+  </section>
+
+ 
+  <section>
+    <h2>Our Courses</h2>
+    <img src="sch3.webp" alt="Courses" />
+
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Duration</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>Web Programming</td>
+        <td>1 Year</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>Data Analysis</td>
+        <td>6 Weeks</td>
+        <td>Intermediate</td>
+      </tr>
+    </table>
+  </section>
+
+  
+  <section>
+    <h2>Study Resources</h2>
+    <img src="sch.4.webp" alt="Books" />
+
+    <h3>Recommended Tools</h3>
+    <ul>
+      <li>FreeCodeCamp</li>
+      <li>Khan Academy</li>
+      <li>MDN Web Docs</li>
+    </ul>
+
+    <h3>How to Study Smart</h3>
+    <ol>
+      <li>Create a study plan</li>
+      <li>Practice daily</li>
+      <li>Revise weekly</li>
+    </ol>
+  </section>
+
+ 
+  <section>
+    <h2>Contact Us</h2>
+    <h4>Contact & Booking</h4>
+        <p>Phone: +233249846923</p>
+    <img src="sch.5.webp" alt="Contact" />
+    <div class="social-icon">
+    <img src="whatsapp.png" alt="WhatsApp" onclick="window.open('https://wa.me/233249846923')">
+    <img src="instagram.png" alt="Instagram" onclick="window.open('https://www.instagram.com/ur_boy_ambrose?igsh=MXQzN3Y3cWdjbTV0aw%3D%3D&utm_source=qr')">
+    </div>
+    <form>
+      <label>Name:</label>
+      <input type="text" />
+
+      <label>Email:</label>
+      <input type="email" />
+
+      <label>Message:</label>
+      <textarea></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
